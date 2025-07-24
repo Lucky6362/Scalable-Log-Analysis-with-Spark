@@ -1,0 +1,20 @@
+# Ignore shared folder
+shared/
+
+# Ignore JetBrains project files
+.idea/
+
+# Ignore log files and directories
+logs/
+*.log
+
+# Ignore temporary data
+tmp/
+*.tmp
+
+# Ignore Python cache files
+__pycache__/
+*.pyc
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
