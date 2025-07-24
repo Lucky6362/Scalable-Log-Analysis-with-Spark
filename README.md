@@ -142,11 +142,3 @@ The Python Dash application provides an intuitive interface for monitoring real-
 - Enhance dashboard for customizable user settings.
 ---
 
-## License
-This project is licensed under the MIT License.
----
-
-## Contributors
-- **Ronald Nyasha Kanyepi** - [GitHub](https://github.com/ronaldkanyepi). For any inquiries, please contact [kanyepironald@gmail.com](mailto\:kanyepironald@gmail.com).
-
-
