@@ -86,34 +86,7 @@ The Python Dash application provides an intuitive interface for monitoring real-
 ![img.png](ui/assets/dashboard-2.png)
 ---
 
-## How to Run
 
-### Prerequisites
-- Docker and Docker Compose installed.
-- Shared directory setup for volume bindings.
-- Replace `${HOST_SHARED_DIR}` with your host directory.
-- Replace `${IP_ADDRESS}` with your host machine IP.
-
-### Steps
-
-1. **Start the Services:**
-   ```bash
-   docker-compose up -d
-   ```
-2. **Access Jupyter Notebook:**
-   Open `http://localhost:8888` or check the logs for the notebook in Docker for the full URL
-3. **Run the Dash App:**
-   ```bash
-   python ui/ui-prod.py
-   ```
-   Access the dashboard at `http://127.0.0.1:8050`.
-4. **Kafka Setup:**
-   - Create topics:
-     ```bash
-     python kafka/kafka_producer.py
-     ```
-
----
 
 ## Data Pipeline
 
