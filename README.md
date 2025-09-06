@@ -51,10 +51,6 @@ Log Realtime Analysis is a robust real-time log aggregation and visualization sy
 - **Ports:** `8000:8000`
 - **Volume:** `${HOST_SHARED_DIR}/dynamodb-local:/data`
 
-### DynamoDB Admin
-
-- **Image:** `aaronshaf/dynamodb-admin`
-- **Ports:** `8001:8001`
 
 ### Spark Jupyter
 - **Image:** `jupyter/all-spark-notebook:python-3.11.6`
